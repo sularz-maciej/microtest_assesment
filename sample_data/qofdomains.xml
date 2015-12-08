@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QOF>
+	<domain Type="A.01" score="15" targetScore="43">
+		Patients diagnosed with angina on or after 1st April 2003, who have been referred for exercise testing and/or "specialist assessment" between 3 months before and 12 months after diagnosis unless this has been declined
+	</domain>
+	<domain Type="A.02" score="112" targetScore="112">
+		Patient is not diagnosed with angina.
+	</domain>
+	<domain Type="A.03" score="13" targetScore="34">
+		Patient has angina diagnosed since 1st Apr 2003.
+	</domain>
+	<domain Type="A.04" score="32" targetScore="44">
+		Patient has exercise testing within 3 months before and 12 months after diagnosis of angina.
+	</domain>
+	<domain Type="A.05" score="123" targetScore="155">
+		Patient is registered within 3 months of reference date.
+	</domain>
+	<domain Type="A.06" score="434" targetScore="655">
+		Patient is excluded within 15 months of reference date.
+	</domain>
+	<domain Type="A.07" score="23" targetScore="54">
+		Patient has declined exercise testing within 12 months of diagnosis.
+	</domain>
+	<domain Type="A.08" score="22" targetScore="533">
+		Patient has angina diagnosed within 3 months of reference date.
+	</domain>
+	<domain Type="A.09" score="12" targetScore="25">
+		Patient has exercise testing within 3 months before and 12 months after diagnosis of angina.
+	</domain>
+	<domain Type="B.01" score="39" targetScore="121">
+		Patients with CHD, for whom the latest blood pressure reading (measured within the last 15 months) is 150/90 or less, excluding those patients who have reached their 'maximum tolerated level' of hypertensive therapy
+	</domain>
+	<domain Type="B.02" score="65" targetScore="166">
+		Patient most recent BP is less than 150/90 and recorded within 15 months of reference date.
+	</domain>
+	<domain Type="B.03" score="2" targetScore="24">
+		Patient has BP exception coding within 15 months.
+	</domain>
+	<domain Type="B.04" score="1" targetScore="1">
+		Patient is registered within 9 months of reference date.
+	</domain>
+	<domain Type="C.01" score="0" targetScore="122">
+		Patients with CHD, whose notes record smoking status in the past 15 months (excluding those patients who have never smoked, where smoking status need only be recorded at least once since diagnosis)
+	</domain>
+	<domain Type="C.02" score="19" targetScore="165">
+		Patient has smoking habits recorded within 15 months of reference date.
+	</domain>
+	<domain Type="C.03" score="33" targetScore="44">
+		Patient has been recorded as 'never smoked' since diagnosis of CHD.
+	</domain>
+	<domain Type="C.04" score="2" targetScore="44">
+		Patient is registered within 3 months of reference date.
+	</domain>
+	<domain Type="C.05" score="2" targetScore="100">
+		Patient is excluded within 15 months of reference date.
+	</domain>
+	<domain Type="C.06" score="44" targetScore="60">
+		Patient has CHD diagnosed within 3 months of reference date.
+	</domain>
+	<domain Type="C.07" score="4" targetScore="146">
+		Patient has smoking habits recorded within 15 months of reference date.
+	</domain>
+	<domain Type="C.08" score="0" targetScore="2">
+		Patient is recorded as 'never smoked' after diagnosis.
+	</domain>
+	<domain Type="C.09" score="27" targetScore="150">
+		Patients with CHD who smoke, whose notes contain a record that smoking cessation advice has been offered within the last 15 months
+	</domain>
+	<domain Type="C.10" score="123" targetScore="128">
+		Patient has smoking cessation advice recorded within 15 months of reference date.
+	</domain>
+	<domain Type="C.11" score="1" targetScore="167">
+		Patient is registered within 3 months of reference date.
+	</domain>
+	<domain Type="C.12" score="5" targetScore="167">
+		Patient has smoking cessation advice recorded within 15 months of reference date.
+	</domain>
+	<domain Type="C.13" score="12" targetScore="12">
+		Patients with CHD, who have a blood pressure recorded in the previous 15 months
+	</domain>
+	<domain Type="C.14" score="108" targetScore="199">
+		Patient has BP exception coding within 15 months.
+	</domain>
+	<domain Type="C.15" score="12" targetScore="155">
+		Patient is registered within 3 months of reference date.
+	</domain>
+	<domain Type="C.16" score="1" targetScore="23">
+		Patient is excluded within 15 months of reference date.
+	</domain>
+	<domain Type="C.17" score="23" targetScore="67">
+		Patient has BP recorded within 15 months of reference date.
+	</domain>
+</QOF>
