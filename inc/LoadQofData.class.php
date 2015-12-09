@@ -40,6 +40,11 @@ class LoadQofData
      */
     private function fileExists()
     {
+        if(empty($this->fileUrl)){
+            $message = sprintf("File url is empty!\n", $this->fileUrl);
+            die($message);
+        }
+
         // stores HTTP response headers
         $file_headers = @get_headers($this->fileUrl);
 

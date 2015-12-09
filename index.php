@@ -9,6 +9,16 @@
 // Loads class that handles QOF data file.
 require_once('inc/LoadQofData.class.php');
 
+/*
+ * Set url address to the xml file containing QOF data.
+ * Example: http://microtest.co.uk/data/qofdomains.xml
+ */
+$file = 'http://microtest.co.uk/data/qofdomains.xml';
+
+// Initialise the class class
+$qofData = new LoadQofData($file);
+// Load QOF data as an array.
+$qofData = $qofData->getDataArray();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,18 +74,8 @@ require_once('inc/LoadQofData.class.php');
 
                 <tbody>
                 <?php
-                /*
-                 * Set url address to the xml file containing QOF data.
-                 * Example: http://microtest.co.uk/data/qofdomains.xml
-                 */
-                $file = 'http://microtest.co.uk/data/qofdomains.xml';
 
 
-                // Initialise the class class
-                $qofData = new LoadQofData($file);
-
-                // Load QOF data as an array.
-                $qofData = $qofData->getDataArray();
 
                 // Loop through the array
                 foreach ($qofData as $item) { ?>
